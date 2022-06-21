@@ -2,11 +2,11 @@
 
 console.log ("Insira sua idade:"); //campo para inserção da idade
 
-	let IdadeInserida = 19; //Exemplo de idade
+	let idadeInserida = 19; //Exemplo de idade
 
-console.log (IdadeInserida);
+console.log (idadeInserida);
 
-		if (IdadeInserida>=18) { 
+		if (idadeInserida>=18) { 
 		console.log("Cadastro Permitido."); //Se Sim
 		}
 
@@ -16,12 +16,12 @@ console.log (IdadeInserida);
 
 console.log ("Insira a data do evento:"); //campo para inserção de data
 
-	let DataInserida = 26062022; //Exemplo de data inserida
-	let DataAtual = 20062022; //Data atual na qual foi feito está atividade
+	let dataInserida = 26062022; //Exemplo de data inserida
+	let dataAtual = 20062022; //Data atual na qual foi feito está atividade
 
-console.log (DataInserida);
+console.log (dataInserida);
 
-		if (DataInserida>DataAtual) { 
+		if (dataInserida>dataAtual) { 
 			console.log("Data do evento permitida."); //Se Sim
 		}
 	
@@ -31,13 +31,13 @@ console.log (DataInserida);
 
 console.log ("Insira os nomes dos participantes que estarão no evento:");//Lista dos nomes dos participantes
 		
-	let NomesDosParticipantes = ["Rafaela", "Vitor", "Carlos", "Gean", "Maria", "Antônio"];
-	let QuantidadeDeParticipantes = NomesDosParticipantes.length;
+	let nomesDosParticipantes = ["Rafaela", "Vitor", "Carlos", "Gean", "Maria", "Antônio"];
+	let quantidadeDeParticipantes = nomesDosParticipantes.length;
 
 console.log ("Número atual de Pessoas Colocadas na lista:"); //Quantidade de participantes
-console.log (QuantidadeDeParticipantes) ;
+console.log (quantidadeDeParticipantes) ;
 
-		if (QuantidadeDeParticipantes>100) { 
+		if (quantidadeDeParticipantes>100) { 
 		console.log("Sua lista de participantes excedeu o limite de 100 pessoas e não será permitida."); //Se Não
 		}
 
