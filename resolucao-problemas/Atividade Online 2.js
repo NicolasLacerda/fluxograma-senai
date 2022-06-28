@@ -1,12 +1,12 @@
 //Inicio
 
-	console.log ("Insira sua idade:"); //campo para inserção da idade
+			console.log ("Insira sua idade:"); //campo para inserção da idade
 
 let idadeInserida = 19; //Exemplo de idade
 
-	console.log (idadeInserida);
-	console.log("");
-	console.log ("Processando...");	
+			console.log (idadeInserida);
+			console.log("");
+			console.log ("Processando...");	
 
 		if (idadeInserida>=18) { 
 			console.log("-------------------");
@@ -21,10 +21,10 @@ let idadeInserida = 19; //Exemplo de idade
 		}
 
 	
-	console.log("");
+			console.log("");
 
 
-	console.log ("Insira a data do evento:"); //campo para inserção de data
+			console.log ("Insira a data do evento:"); //campo para inserção de data
 
 let dataInserida = "26092023" //Exemplo de data inserida
 let dataInseridaEmNumero = Number(dataInserida)
@@ -34,9 +34,9 @@ let mes = String(data.getMonth() + 1).padStart(2, '0');
 let ano = data.getFullYear();
 let dataAtual = dia + mes + ano; //Data atual
 
-	console.log(dataInserida.substr(0, 2) + "/" + dataInserida.substr(2,2) + "/" + dataInserida.substr(4,4))
-	console.log("");
-	console.log ("Processando...");
+			console.log(dataInserida.substr(0, 2) + "/" + dataInserida.substr(2,2) + "/" + dataInserida.substr(4,4))
+			console.log("");
+			console.log ("Processando...");
 
 		if (dataInseridaEmNumero>dataAtual) { 
 			console.log("---------------------------------------------");
@@ -50,10 +50,10 @@ let dataAtual = dia + mes + ano; //Data atual
 			console.log("-------------------------");
 		}
 
-		console.log("");
+			console.log("");
 
-		console.log ("Insira os nomes dos participantes que estarão no evento:"); //Lista dos nomes dos participantes
-		console.log("");
+			console.log ("Insira os nomes dos participantes que estarão no evento:"); //Lista dos nomes dos participantes
+			console.log("");
 
 let nomesDosParticipantes = ["Rafaela", "Vitor", "Carlos", "Gean", "Maria", "Antônio"];
 let quantidadeDeParticipantes = nomesDosParticipantes.length;
